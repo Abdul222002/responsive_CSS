@@ -1,0 +1,1 @@
+En este trabajo nos enfocaremos en realizar archivos css que nos ayuden a color bloques en la posicion requerida.
