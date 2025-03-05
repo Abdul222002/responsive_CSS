@@ -1,0 +1,26 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  padding: 20px;
+}
+
+.box {
+  background-color: rgb(11, 123, 160);
+  padding: 20px;
+  text-align: center;
+}
+
+
+@media (max-width: 1024px) {
+  .grid-container {
+      grid-template-columns: 1fr 1fr;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .grid-container {
+      grid-template-columns: 1fr;
+  }
+}
